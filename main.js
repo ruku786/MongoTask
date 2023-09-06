@@ -1,7 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const { S3 } = require('aws-sdk');
 
-// MongoDB connection URL
 const mongoURL = 'mongodb://localhost:27017/Meta-data';
 
 // AWS S3 configuration
@@ -11,7 +10,7 @@ const s3 = new S3({
 });
 
 const dateToCheck = new Date(ISODate("2021-11-18T00:00:00.000Z"));
-// Define your MongoDB aggregation pipeline
+
 const aggregationPipeline =     [
   {
     $match: {
