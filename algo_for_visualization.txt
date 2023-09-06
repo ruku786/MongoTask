@@ -1,0 +1,18 @@
+To connect to an S3 bucket using a visualization tool for analysis.
+We can Use tools like Power BI, Tableau and AWS QuickSight.
+
+I am giving the example of Amazon Quick sight here:
+
+Step 1:  Open Amazon QuickSight.
+Step 2: Create a new dataset.
+Step 3: Choose "Amazon S3" as the data source.
+Step 4: Enter your AWS credentials.
+Step 5: Configure the dataset by specifying the S3 bucket and file location.
+Step 6: Define the schema and data transformations as needed.
+Step 7: Create the dataset.
+
+
+Load, Visualize Data and Save:
+Select the specific data files or objects you want to analyze within your S3 bucket.
+Build your visualizations and reports using the prepared data.
+Save your analysis project.
